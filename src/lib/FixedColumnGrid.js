@@ -33,7 +33,7 @@ class FixedColumnGrid extends React.Component {
     componentDidUpdate() {
     }
     defaultCellCenter(data, column_index, row_index) {
-        return <div className="fixed-column__cell">{cell}</div>;
+        return <div className="fixed-column__cell">{data}</div>;
     }
 
     render() {
