@@ -1,0 +1,30 @@
+.fixed-column-grid {
+    display: flex;
+    flex-direction: row;
+}
+.fixed-column-grid--center {
+    justify-content: center;
+}
+.fixed-column__scroll,
+.fixed-column__left,
+.fixed-column__right {
+    display: flex;
+}
+.fixed-column__scroll {
+    flex: 0 1 auto;
+    overflow: auto;
+}
+
+.fixed-column__left {
+    flex: 0 0 auto;
+}
+.fixed-column__right {
+    flex: 0 0 auto;
+}
+.fixed-column {
+    display: flex;
+    flex-direction: column;
+}
+.fixed-column__cell {
+    flex: 0 0 auto;
+}

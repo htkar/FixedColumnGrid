@@ -1,0 +1,14 @@
+.print-reverse-fixed-column-grid {
+    flex-direction: column;
+}
+
+.fixed-column__scroll,
+.fixed-column__left,
+.fixed-column__right {
+    flex-direction: column;
+}
+
+.fixed-column {
+    flex-direction: row;
+    page-break-inside: avoid;   /* not working for flexbox, I dont know why */
+}
