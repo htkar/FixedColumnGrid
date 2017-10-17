@@ -14,7 +14,7 @@ var config = {
         index: './index.jsx',
     },
     output: {
-        path: path.join(__dirname, 'dist/js'),
+        path: path.join(__dirname, '.'),
         filename: '[name].js'
     },
     resolve: {
@@ -35,7 +35,9 @@ var config = {
 
 
     devServer: {
-        contentBase: "examples/",
+        host: "0.0.0.0",
+        port: 8083,
+        contentBase: "./examples",
         stats: {colors: true}
     },
 
