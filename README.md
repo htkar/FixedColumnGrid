@@ -2,7 +2,7 @@
 
 fixed left or right column like excel
 
-![demo][http://orwf5fma6.bkt.clouddn.com/fixed_column_grid_demo.png]
+![demo](http://orwf5fma6.bkt.clouddn.com/fixed_column_grid_demo.png)
 
 ---
 
@@ -23,12 +23,17 @@ fixed left or right column like excel
 ## CSS
 
 1, about border of the grid, you can refer the '.fixed-column-grid--border' css class in 'fixed-column-grid-sample.css' in example folder
+
 2, if not enough content for container width you can use '.fixed-column-grid--center' css class to algin center the content
 
 ## example
 
 1, $ cd <project_path>
+
 2, $ npm install
+
 3, $ npm run examples
+
 4, open http://localhost:8083/demo.html
+
 5, try to print this page
